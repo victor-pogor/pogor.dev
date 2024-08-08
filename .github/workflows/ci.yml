@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: "☁️ Checkout repository"
         uses: actions/checkout@v4
-      
+
       - uses: pnpm/action-setup@v4
         name: "🔧 Setup pnpm"
         with:
