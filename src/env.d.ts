@@ -1,2 +1,2 @@
-import '../.astro/types';
-import 'astro/client';
+import "../.astro/types";
+import "astro/client";
