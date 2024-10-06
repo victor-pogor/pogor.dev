@@ -40,7 +40,7 @@ jobs:
         run: pnpm install
 
       - name: "🔎 Lint code"
-        run: pnpm run lint:check
+        run: pnpm run lint
 
       - name: "📝 Checking code format"
         run: pnpm run format:check
